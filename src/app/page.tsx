@@ -5,6 +5,7 @@ import {
   ChevronLeftIcon,
   ChevronRightIcon,
 } from "lucide-react";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -74,12 +75,60 @@ export default function Home() {
           <h1 className="font-semibold text-3xl mt-10">Welcome again</h1>
 
           <div className="grid grid-cols-3 gap-4">
-            <div className="bg-white/10 rounded">Playlist</div>
-            <div className="bg-white/10 rounded">Playlist</div>
-            <div className="bg-white/10 rounded">Playlist</div>
-            <div className="bg-white/10 rounded">Playlist</div>
-            <div className="bg-white/10 rounded">Playlist</div>
-            <div className="bg-white/10 rounded">Playlist</div>
+            <a className="bg-white/10 rounded flex items-center gap-4 ouverflow-hidden hover:bg-white/20">
+              <Image
+                src="/Nirvana.jpg"
+                width={104}
+                height={80}
+                alt="capa do albul da banda Nirvana"
+              />
+              <strong>Nirvana</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 ouverflow-hidden hover:bg-white/20">
+              <Image
+                src="/Nirvana.jpg"
+                width={104}
+                height={80}
+                alt="capa do albul da banda Nirvana"
+              />
+              <strong>Nirvana</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 ouverflow-hidden hover:bg-white/20">
+              <Image
+                src="/Nirvana.jpg"
+                width={104}
+                height={80}
+                alt="capa do albul da banda Nirvana"
+              />
+              <strong>Nirvana</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 ouverflow-hidden hover:bg-white/20">
+              <Image
+                src="/Nirvana.jpg"
+                width={104}
+                height={80}
+                alt="capa do albul da banda Nirvana"
+              />
+              <strong>Nirvana</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 ouverflow-hidden hover:bg-white/20">
+              <Image
+                src="/Nirvana.jpg"
+                width={104}
+                height={80}
+                alt="capa do albul da banda Nirvana"
+              />
+              <strong>Nirvana</strong>
+            </a>
+            <a className="bg-white/10 rounded flex items-center gap-4 ouverflow-hidden hover:bg-white/20">
+              <Image
+                src="/Nirvana.jpg"
+                width={104}
+                height={80}
+                alt="capa do albul da banda Nirvana"
+              />
+              <strong>Nirvana</strong>
+            </a>
           </div>
         </main>
       </div>
